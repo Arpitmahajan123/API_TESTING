@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "arpit": "node index.js"
+    "arpit": "nodemon src/index.js"
   },
   "keywords": [
     "JavaScript",
@@ -16,7 +16,9 @@
   "dependencies": {
     "express": "^5.1.0",
     "mongoose": "^8.13.2",
-    "node": "^23.11.0",
+    "node": "^23.11.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
