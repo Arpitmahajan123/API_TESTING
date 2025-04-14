@@ -1,0 +1,22 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "This Is For Postman API Testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "arpit": "node index.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "npm"
+  ],
+  "author": "Arpit Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "node": "^23.11.0",
+    "nodemon": "^3.1.9"
+  }
+}
